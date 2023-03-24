@@ -8,12 +8,12 @@
 }
 
 body{
-    background: #9c33ff;
+    background: #3b0487;
 }
 
 ::selection{
     color: #fff;
-    background: #9c33ff;
+    background: #3b0487;
 }
 
 .start_btn,
@@ -40,7 +40,7 @@ body{
 .start_btn button{
     font-size: 25px;
     font-weight: 500;
-    color: #33ff33;
+    color: #3b0487;
     padding: 15px 30px;
     outline: none;
     border: none;
@@ -82,7 +82,7 @@ body{
 
 .info_box .info-list .info span{
     font-weight: 600;
-    color: #33ff33;
+    color: #3b0487;
 }
 .info_box .buttons{
     height: 60px;
@@ -137,7 +137,7 @@ body{
 
 .quiz_box header .timer{
     color: #000000;
-    background: #b3ffb3;
+    background: #3b0487;
     border: 1px solid #80ff80;
     height: 45px;
     padding: 0 8px;
@@ -163,7 +163,7 @@ body{
     border-radius: 5px;
     line-height: 30px;
     text-align: center;
-    background: #80ffcc;
+    background: #3b0487;
     border: 1px solid #00ff99;
     user-select: none;
 }
@@ -365,19 +365,19 @@ footer button.show{
 
 .buttons button.restart{
     color: #fff;
-    background: #1aff66;
+    background: #3b0487;
 }
 
 .buttons button.restart:hover{
-    background: #00b33c;
+    background:#3b0487;
 }
 
 .buttons button.quit{
-    color: #1aff66;
+    color: #3b0487;
     background: #fff;
 }
 
 .buttons button.quit:hover{
     color: #fff;
-    background: #00b33c;
+    background: #3b0487;
 }
