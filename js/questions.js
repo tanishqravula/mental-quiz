@@ -242,7 +242,7 @@ let questions = [
    {
     numb: 18,
     question: "I feel helpless",
-    answer: "All the time",
+    answer: "Some of the time",
     options: [
     "Never",
 
@@ -253,9 +253,24 @@ let questions = [
     "All the time"
     ]
   },
-   { numb: 19,
+  { 
+      numb: 19,
     question: "I don’t feel happy even when good things happen",
-    answer: "All the time",
+    answer: "Some of the time",
+    options: [
+    "Never",
+
+    "Hardly ever",
+
+    "Some of the time",
+
+    "All the time"
+    ]
+  }, 
+  { 
+      numb: 20,
+    question: "Persistent aches or pains",
+    answer: "Some of the time",
     options: [
     "Never",
 
