@@ -157,10 +157,44 @@ function showResult(){
          x1.title = "Yoga therapy";
          x1.href = "https://tanishqravula.github.io/tanishq-hackathon-2/html/yogatherapy.html";
          document.body.appendChild(x1);
+         let x2 = document.createElement('a');
+         let textTolink = document.createTextNode("This is link");
+         x2.appendChild(textTolink);
+         x2.title = "Laughing therapy";
+         x2.href = "https://tanishqravula.github.io/tanishq-hackathon-2/html/laughTherapy.html";
+         document.body.appendChild(x2);
+         let x6 = document.createElement('a');
+         let textTolink = document.createTextNode("This is link");
+         x6.appendChild(textTolink);
+         x6.title = "Laughing therapy";
+         x6.href = "https://tanishqravula.github.io/tanishq-hackathon-2/html/readingTherapy.html";
+         document.body.appendChild(x6);
+        
     }
     else if(userScore>6 && userScore<14){ // if user scored more than 1
         let scoreTag = '<span>Moderate level of symptoms seen </span>';
         scoreText.innerHTML = scoreTag;
+         let x3 = document.createElement('a');
+         let textTolink = document.createTextNode("This is link");
+         x3.appendChild(textTolink);
+         x3.title = "Child therapy";
+         x3.href = "https://tanishqravula.github.io/tanishq-hackathon-2/html/childTherapy.html";
+         document.body.appendChild(x3);
+         let x4 = document.createElement('a');
+         let textTolink = document.createTextNode("This is link");
+         x4.appendChild(textTolink);
+         x4.title = "Audio therapy";
+         x4.href = "https://tanishqravula.github.io/tanishq-hackathon-2/html/audioTherapy.html";
+         document.body.appendChild(x4);
+         let x5 = document.createElement('a');
+         let textTolink = document.createTextNode("This is link");
+         x5.appendChild(textTolink);
+         x5.title = "Spiritual therapy";
+         x5.href = "https://tanishqravula.github.io/tanishq-hackathon-2/html/spirituality.html";
+         document.body.appendChild(x5);
+        
+        
+        
     }
     else{ // if user scored less than 1
         let scoreTag = '<span>Low level of symptoms seen </span>';
