@@ -145,10 +145,22 @@ function showResult(){
         //creating a new span tag and passing the user score number and total question number
         let scoreTag = '<span> High level of symptoms seen</span>';
         scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
+         let x = document.createElement('a');
+         let textTolink = document.createTextNode("This is link");
+         x.appendChild(textTolink);
+         x.title = "This is Link";
+         x.href = "https://tanishqravula.github.io/tanishq-hackathon-2/html/talkingTherapy.html";
+         document.body.appendChild(x);
     }
     else if(userScore>6 && userScore<14){ // if user scored more than 1
         let scoreTag = '<span>Moderate level of symptoms seen </span>';
         scoreText.innerHTML = scoreTag;
+         let x = document.createElement('a');
+         let textTolink = document.createTextNode("This is link");
+         x.appendChild(textTolink);
+         x.title = "This is Link";
+         x.href = "https://tanishqravula.github.io/tanishq-hackathon-2/html/talkingTherapy.html";
+         document.body.appendChild(x);
     }
     else{ // if user scored less than 1
         let scoreTag = '<span>Low level of symptoms seen </span>';
