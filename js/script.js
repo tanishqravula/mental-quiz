@@ -143,15 +143,15 @@ function showResult(){
     const scoreText = result_box.querySelector(".score_text");
     if (userScore > 13){ // if user scored more than 3
         //creating a new span tag and passing the user score number and total question number
-        let scoreTag = '<span> High level of symptoms seen, You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span> High level of symptoms seen</span>';
         scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
     }
     else if(userScore>6 && userScore<14){ // if user scored more than 1
-        let scoreTag = '<span>Moderate level of symptoms seen , You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span>Moderate level of symptoms seen </span>';
         scoreText.innerHTML = scoreTag;
     }
     else{ // if user scored less than 1
-        let scoreTag = '<span>Low level of symptoms seen , You got only <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span>Low level of symptoms seen </span>';
         scoreText.innerHTML = scoreTag;
     }
 }
