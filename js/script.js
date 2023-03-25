@@ -141,7 +141,7 @@ function showResult(){
          let textTolink = document.createTextNode("Visit talking therapy");
          x.appendChild(textTolink);
          x.title = "Talking therapy";
-         x.href = "https://tanishqravula.github.io/tanishq-hackathon-2/html/talkingTherapy.html";
+         x.href = "https://tanishqravula.github.io/tanishqhackathon/";
          document.body.appendChild(x);
         
     }
@@ -152,7 +152,7 @@ function showResult(){
         let textTolink = document.createTextNode("visit child therapy");
          x3.appendChild(textTolink);
          x3.title = "Child therapy";
-         x3.href = "https://tanishqravula.github.io/tanishq-hackathon-2/html/childTherapy.html";
+         x3.href = "https://tanishqravula.github.io/tanishq-hackathon-2/html/talkingTherapy.html";
          document.body.appendChild(x3);
         
     
