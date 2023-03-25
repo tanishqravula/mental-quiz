@@ -135,7 +135,7 @@ function showResult(){
     const scoreText = result_box.querySelector(".score_text");
     if (userScore > 9){ // if user scored more than 13
         //creating a new span tag and passing the user score number and total question number
-        let scoreTag = '<span> High level of symptoms seen</span>';
+        let scoreTag = '<span> High level of symptoms seen,You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
          let x = document.createElement('a');
          let textTolink = document.createTextNode("consult a docotr therapy");
@@ -146,7 +146,7 @@ function showResult(){
         
     }
     else if(userScore>4 && userScore<9){ // if user scored more than 1
-        let scoreTag = '<span>Moderate level of symptoms seen </span>';
+        let scoreTag = '<span>Moderate level of symptoms seen,You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p> </span>';
         scoreText.innerHTML = scoreTag;
         let x3 = document.createElement('a');
         let textTolink = document.createTextNode("visit talking therapy");
@@ -160,7 +160,7 @@ function showResult(){
         
     }
     else{ // if user scored less than 1
-        let scoreTag = '<span>Low level of symptoms seen </span>';
+        let scoreTag = '<span>Low level of symptoms seen,You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p> </span>';
         scoreText.innerHTML = scoreTag;
     }
 }
