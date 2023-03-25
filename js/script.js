@@ -138,9 +138,9 @@ function showResult(){
         let scoreTag = '<span> High level of symptoms seen</span>';
         scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
          let x = document.createElement('a');
-         let textTolink = document.createTextNode("Visit talking therapy");
+         let textTolink = document.createTextNode("consult a docotr therapy");
          x.appendChild(textTolink);
-         x.title = "Talking therapy";
+         x.title = "Consult a doctor";
          x.href = "https://tanishqravula.github.io/tanishqhackathon/";
          document.body.appendChild(x);
         
@@ -149,9 +149,9 @@ function showResult(){
         let scoreTag = '<span>Moderate level of symptoms seen </span>';
         scoreText.innerHTML = scoreTag;
         let x3 = document.createElement('a');
-        let textTolink = document.createTextNode("visit child therapy");
+        let textTolink = document.createTextNode("visit talking therapy");
          x3.appendChild(textTolink);
-         x3.title = "Child therapy";
+         x3.title = "Talking therapy";
          x3.href = "https://tanishqravula.github.io/tanishq-hackathon-2/html/talkingTherapy.html";
          document.body.appendChild(x3);
         
