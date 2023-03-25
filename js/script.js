@@ -133,7 +133,7 @@ function showResult(){
     quiz_box.classList.remove("activeQuiz"); //hide quiz box
     result_box.classList.add("activeResult"); //show result box
     const scoreText = result_box.querySelector(".score_text");
-    if (userScore > 13){ // if user scored more than 3
+    if (userScore > 9){ // if user scored more than 13
         //creating a new span tag and passing the user score number and total question number
         let scoreTag = '<span> High level of symptoms seen</span>';
         scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
@@ -145,7 +145,7 @@ function showResult(){
          document.body.appendChild(x);
         
     }
-    else if(userScore>6 && userScore<14){ // if user scored more than 1
+    else if(userScore>4 && userScore<9){ // if user scored more than 1
         let scoreTag = '<span>Moderate level of symptoms seen </span>';
         scoreText.innerHTML = scoreTag;
         let x3 = document.createElement('a');
