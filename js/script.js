@@ -145,7 +145,7 @@ function showResult(){
          document.body.appendChild(x);
         
     }
-    else if(userScore>4 && userScore<9){ // if user scored more than 1
+    else if(userScore>4 && userScore<10){ // if user scored more than 1
         let scoreTag = '<span>Moderate level of symptoms seen,You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p> </span>';
         scoreText.innerHTML = scoreTag;
         let x3 = document.createElement('a');
