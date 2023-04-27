@@ -73,7 +73,7 @@ let questions = [
     {
     numb: 6,
     question: "Feeling bad about yourself - or that you are a failure or have let yourself or your family down",
-    answer: "NEARLY EVERYDAY",
+    answer: "NEARLY EVERY DAY",
     options: [
     "NOT AT ALL",
 
@@ -87,7 +87,7 @@ let questions = [
       {
     numb: 7,
     question: "Trouble concentrating on things, such as reading the newspaper or watching television",
-    answer: "NEARLY EVERYDAY",
+    answer: "NEARLY EVERY DAY",
     options: [
     "NOT AT ALL",
 
@@ -101,7 +101,7 @@ let questions = [
       {
     numb: 8,
     question: "Moving or speaking so slowly that other people could have noticed Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual",
-    answer: "NEARLY EVERYDAY",
+    answer: "NEARLY EVERY DAY",
     options: [
     "NOT AT ALL",
 
