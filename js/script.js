@@ -149,9 +149,9 @@ function showResult(){
         let scoreTag = '<span>Moderate level of symptoms seen,You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p> </span>';
         scoreText.innerHTML = scoreTag;
         let x3 = document.createElement('a');
-        let textTolink = document.createTextNode("visit talking therapy");
+        let textTolink = document.createTextNode("Access our Therapies");
          x3.appendChild(textTolink);
-         x3.title = "Acess our therapies";
+         x3.title = "Access our Therapies";
          x3.href = "https://tanishqravula.github.io/tanishqtherapies/";
          document.body.appendChild(x3);
         
