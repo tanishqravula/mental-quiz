@@ -151,8 +151,8 @@ function showResult(){
         let x3 = document.createElement('a');
         let textTolink = document.createTextNode("visit talking therapy");
          x3.appendChild(textTolink);
-         x3.title = "Talking therapy";
-         x3.href = "https://tanishqravula.github.io/tanishq-hackathon-2/html/talkingTherapy.html";
+         x3.title = "Acess our therapies";
+         x3.href = "https://tanishqravula.github.io/tanishqtherapies/";
          document.body.appendChild(x3);
         
     
