@@ -138,7 +138,7 @@ function showResult(){
         let scoreTag = '<span> High level of symptoms seen,You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
          let x = document.createElement('a');
-         let textTolink = document.createTextNode("consult a docotr therapy");
+         let textTolink = document.createTextNode("consult a doctor therapy");
          x.appendChild(textTolink);
          x.title = "Consult a doctor";
          x.href = "https://tanishqravula.github.io/tanishqhackathon/";
