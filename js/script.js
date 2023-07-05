@@ -141,7 +141,7 @@ function showResult(){
          let textTolink = document.createTextNode("consult a doctor therapy");
          x.appendChild(textTolink);
          x.title = "Consult a doctor";
-         x.href = "https://tanishqravula.github.io/health/";
+         x.href = "https://tanishqravula.github.io/tanishqhackathon/";
          document.body.appendChild(x);
         
     }
